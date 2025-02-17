@@ -1,3 +1,12 @@
 [workspace]
 resolver = "2"
-members = []
+members = [
+  "backend-rust-axum"
+]
+
+[workspace.package]
+authors = ["yoseio"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/yoseio/learn-language.git"
